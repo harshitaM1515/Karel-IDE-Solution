@@ -1,0 +1,43 @@
+function main(){
+   putBeeper();
+   odd();
+   even();
+   odd();
+   even();
+   odd();
+   
+}
+
+function odd(){
+   todo();
+   todo();
+   turnLeft();
+}
+
+function even(){
+   evenCurve();
+   todo();
+   oddCurve();
+   turnRight();
+} 
+   
+   
+function evenCurve(){
+   move();
+   turnLeft();
+   move();
+   putBeeper();
+}
+
+function oddCurve(){
+   move();
+   turnRight();
+   move();
+   putBeeper();
+}
+   
+function todo(){
+   move();
+   move();
+   putBeeper();
+}
